@@ -56,5 +56,7 @@ namespace TesteExemploSiteCompra
             Assert.AreEqual("Geladeira", algoritimo.Menor.Nome);
             Assert.AreEqual("Geladeira", algoritimo.Maior.Nome);
         }
+        
+
     }
 }
