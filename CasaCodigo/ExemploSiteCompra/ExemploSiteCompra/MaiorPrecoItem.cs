@@ -15,6 +15,7 @@ namespace ExemploSiteCompra
             double maior = carrinho.Itens[0].ValorTotal;
             foreach(var item in carrinho.Itens)
             {
+                
                 if (maior < item.ValorTotal)
                 {
                     maior = item.ValorTotal;

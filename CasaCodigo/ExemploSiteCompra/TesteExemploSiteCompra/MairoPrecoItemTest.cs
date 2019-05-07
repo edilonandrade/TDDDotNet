@@ -5,16 +5,22 @@ using System.Linq;
 using System.Text;
 using NUnit.Framework;
 using ExemploSiteCompra;
+using System.Diagnostics;
 
 namespace TesteExemploSiteCompra
 {
     [TestFixture]
     public class MairoPrecoItemTest
     {
+        private CarrinhoDeCompras carrinho;
+
+        [SetUp]
+        public void Inicializa() {
+            this.carrinho = new CarrinhoDeCompras();
+        }
+
         [Test]
         public void DeveRetornarZeroSeCarrinhoVazio() {
-            CarrinhoDeCompras carrinho = new CarrinhoDeCompras();
-
             MaiorPrecoItem algoritimo = new MaiorPrecoItem();
 
             double valor = algoritimo.Encontra(carrinho);
@@ -25,8 +31,7 @@ namespace TesteExemploSiteCompra
         [Test]
         public void DeveRetornarValorDoItemSeCarrinhoCom1Elemento()
         {
-            CarrinhoDeCompras carrinho = new CarrinhoDeCompras();
-            carrinho.Adiciona(new Item("Geladeira", 1, 900.0));
+           carrinho.Adiciona(new Item("Geladeira", 1, 900.0));
 
             MaiorPrecoItem algoritimo = new MaiorPrecoItem();
 
@@ -38,11 +43,14 @@ namespace TesteExemploSiteCompra
         [Test]
         public void DeveRetornarMaiorValorSeCarrinhoContemMuitosElementos()
         {
-            CarrinhoDeCompras carrinho = new CarrinhoDeCompras();
-            carrinho.Adiciona(new Item("Geladeira", 1, 900.0));
-            carrinho.Adiciona(new Item("Fogão", 1, 1500.0));
-            carrinho.Adiciona(new Item("Máquina de Lavar", 1, 750.0));
+            CarrinhoDeCompras carrinho = new CarrinhoDeComprasBuilder()
+                .ComItens(new double[] { 900.0, 1500.0, 750.0})
+                .Cria();
 
+            //carrinho.Adiciona(new Item("Geladeira", 1, 900.0));
+            //carrinho.Adiciona(new Item("Fogão", 1, 1500.0));
+            //carrinho.Adiciona(new Item("Máquina de Lavar", 1, 750.0));
+            
             MaiorPrecoItem algoritimo = new MaiorPrecoItem();
             double valor = algoritimo.Encontra(carrinho);
 
