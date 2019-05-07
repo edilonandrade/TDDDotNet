@@ -1,0 +1,9 @@
+C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\DepartamentoPessoal\DepartamentoPessoal\obj\Debug\DepartamentoPessoal.csproj.CoreCompileInputs.cache
+C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\DepartamentoPessoal\DepartamentoPessoal\bin\Debug\DepartamentoPessoal.dll
+C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\DepartamentoPessoal\DepartamentoPessoal\bin\Debug\DepartamentoPessoal.pdb
+C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\DepartamentoPessoal\DepartamentoPessoal\bin\Debug\nunit.framework.dll
+C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\DepartamentoPessoal\DepartamentoPessoal\bin\Debug\nunit.framework.xml
+C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\DepartamentoPessoal\DepartamentoPessoal\obj\Debug\DepartamentoPessoal.csproj.CopyComplete
+C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\DepartamentoPessoal\DepartamentoPessoal\obj\Debug\DepartamentoPessoal.dll
+C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\DepartamentoPessoal\DepartamentoPessoal\obj\Debug\DepartamentoPessoal.pdb
+C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\DepartamentoPessoal\DepartamentoPessoal\obj\Debug\DepartamentoPessoal.csprojAssemblyReference.cache

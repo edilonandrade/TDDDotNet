@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\ExemploSiteCompra\TesteExemploSiteCompra\bin\Debug\TesteExemploSiteCompra.exe" total="2" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2019-05-06" time="17:33:27">
+  <environment nunit-version="2.7.0.0" clr-version="2.0.50727.9035" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.7.0\bin" machine-name="LP1659" user="Inmetrics" user-domain="LP1659" />
+  <culture-info current-culture="pt-BR" current-uiculture="pt-BR" />
+  <test-suite type="Assembly" name="C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\ExemploSiteCompra\TesteExemploSiteCompra\bin\Debug\TesteExemploSiteCompra.exe" executed="True" result="Success" success="True" time="0.041" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="TesteExemploSiteCompra" executed="True" result="Success" success="True" time="0.034" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="TestaMaiorEMenor" executed="True" result="Success" success="True" time="0.033" asserts="0">
+            <results>
+              <test-case name="TesteExemploSiteCompra.TestaMaiorEMenor.ApenasUmProduto" executed="True" result="Success" success="True" time="0.024" asserts="2" />
+              <test-case name="TesteExemploSiteCompra.TestaMaiorEMenor.OrdemDecrescente" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

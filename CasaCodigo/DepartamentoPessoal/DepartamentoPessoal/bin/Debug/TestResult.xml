@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\DepartamentoPessoal\DepartamentoPessoal\bin\Debug\DepartamentoPessoal.dll" total="3" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2019-05-06" time="22:59:44">
+  <environment nunit-version="2.7.0.0" clr-version="2.0.50727.9035" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.7.0\bin" machine-name="LP1659" user="Inmetrics" user-domain="LP1659" />
+  <culture-info current-culture="pt-BR" current-uiculture="pt-BR" />
+  <test-suite type="Assembly" name="C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\DepartamentoPessoal\DepartamentoPessoal\bin\Debug\DepartamentoPessoal.dll" executed="True" result="Success" success="True" time="0.051" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="DepartamentoPessoal" executed="True" result="Success" success="True" time="0.040" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="CalculadoraDeSalarioTest" executed="True" result="Success" success="True" time="0.038" asserts="0">
+            <results>
+              <test-case name="DepartamentoPessoal.CalculadoraDeSalarioTest.DeveCalcularSalarioParaDBAsComSalarioAbaixoDoLimite" executed="True" result="Success" success="True" time="0.023" asserts="1" />
+              <test-case name="DepartamentoPessoal.CalculadoraDeSalarioTest.DeveCalcularSalarioParaDesenvolvedoresComSalarioAbaixoDoLimite" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="DepartamentoPessoal.CalculadoraDeSalarioTest.DeveCalcularSalarioParaDesenvolvedoresComSalarioAcimaDoLimite" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

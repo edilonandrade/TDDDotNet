@@ -1,0 +1,9 @@
+C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\ConversorNumerosRomanos\TestaConversoNumerosRomanos\bin\Debug\TestaConversoNumerosRomanos.dll
+C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\ConversorNumerosRomanos\TestaConversoNumerosRomanos\bin\Debug\TestaConversoNumerosRomanos.pdb
+C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\ConversorNumerosRomanos\TestaConversoNumerosRomanos\bin\Debug\nunit.framework.dll
+C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\ConversorNumerosRomanos\TestaConversoNumerosRomanos\bin\Debug\nunit.framework.xml
+C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\ConversorNumerosRomanos\TestaConversoNumerosRomanos\obj\Debug\TestaConversoNumerosRomanos.csproj.CoreCompileInputs.cache
+C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\ConversorNumerosRomanos\TestaConversoNumerosRomanos\obj\Debug\TestaConversoNumerosRomanos.csproj.CopyComplete
+C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\ConversorNumerosRomanos\TestaConversoNumerosRomanos\obj\Debug\TestaConversoNumerosRomanos.dll
+C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\ConversorNumerosRomanos\TestaConversoNumerosRomanos\obj\Debug\TestaConversoNumerosRomanos.pdb
+C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\ConversorNumerosRomanos\TestaConversoNumerosRomanos\obj\Debug\TestaConversoNumerosRomanos.csprojAssemblyReference.cache
