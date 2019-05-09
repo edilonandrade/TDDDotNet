@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
-  <TopNode>[0-1006]C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\ExemploSiteCompra\TesteExemploSiteCompra\bin\Debug\TesteExemploSiteCompra.exe</TopNode>
-  <SelectedNode>[0-1006]C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\ExemploSiteCompra\TesteExemploSiteCompra\bin\Debug\TesteExemploSiteCompra.exe</SelectedNode>
+  <TopNode>[0-1007]C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\ExemploSiteCompra\TesteExemploSiteCompra\bin\Debug\TesteExemploSiteCompra.exe</TopNode>
+  <SelectedNode>[0-1008]TesteExemploSiteCompra</SelectedNode>
   <ExcludeCategories>false</ExcludeCategories>
   <Nodes>
-    <Node UniqueName="[0-1006]C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\ExemploSiteCompra\TesteExemploSiteCompra\bin\Debug\TesteExemploSiteCompra.exe" Expanded="true" />
-    <Node UniqueName="[0-1007]TesteExemploSiteCompra" Expanded="true" />
+    <Node UniqueName="[0-1007]C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\ExemploSiteCompra\TesteExemploSiteCompra\bin\Debug\TesteExemploSiteCompra.exe" Expanded="true" />
+    <Node UniqueName="[0-1008]TesteExemploSiteCompra" Expanded="true" />
     <Node UniqueName="[0-1000]TesteExemploSiteCompra.MairoPrecoItemTest" Expanded="true" />
-    <Node UniqueName="[0-1003]TesteExemploSiteCompra.TestaMaiorEMenor" Expanded="true" />
+    <Node UniqueName="[0-1004]TesteExemploSiteCompra.TestaMaiorEMenor" Expanded="true" />
   </Nodes>
 </VisualState>
