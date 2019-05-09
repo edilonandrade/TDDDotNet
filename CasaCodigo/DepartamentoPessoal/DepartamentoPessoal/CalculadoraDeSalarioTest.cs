@@ -43,5 +43,17 @@ namespace DepartamentoPessoal
 
             Assert.AreEqual(dba.Salario * 0.85, salario, 0.00001);
         }
+
+        [Test]
+        public void DeveCalcularSalarioParaDBAsComSalarioAcimaDoLimite()
+        {
+            CalculadoraDeSalario calculadora = new CalculadoraDeSalario();
+            Funcionario dba = new Funcionario("Mauricio", 4500.0, Tipos.Cargo.DBA);
+
+            double salario = calculadora.CalculaSalario(dba);
+
+            Assert.AreEqual(4500.0 * 0.75, salario, 0.00001);
+
+        }
     }
 }
