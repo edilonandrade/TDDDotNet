@@ -6,4 +6,3 @@ C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\Cas
 C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\DepartamentoPessoal\DepartamentoPessoal\obj\Debug\DepartamentoPessoal.csproj.CopyComplete
 C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\DepartamentoPessoal\DepartamentoPessoal\obj\Debug\DepartamentoPessoal.dll
 C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\DepartamentoPessoal\DepartamentoPessoal\obj\Debug\DepartamentoPessoal.pdb
-C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\DepartamentoPessoal\DepartamentoPessoal\obj\Debug\DepartamentoPessoal.csprojAssemblyReference.cache

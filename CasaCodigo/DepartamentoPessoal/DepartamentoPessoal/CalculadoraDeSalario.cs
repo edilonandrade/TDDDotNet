@@ -2,24 +2,23 @@
 
 namespace DepartamentoPessoal
 {
-    public class CalculadoraDeSalario
+    public interface IRegraCalculo
     {
-        public double CalculaSalario(Funcionario funcionario)
+        double Calcula(Funcionario f);
+    }
+
+    public class DezOuVintePorCento : IRegraCalculo
+    {
+        public double Calcula(Funcionario funcionario)
         {
-            if (funcionario.Cargo.Equals(Tipos.Cargo.DESENVOLVEDOR))
-            {
-                return DezOuVintePorCentoDeDesconto(funcionario);                
-            }
-            else if (funcionario.Cargo.Equals(Tipos.Cargo.DBA) || funcionario.Cargo.Equals(Tipos.Cargo.TESTADOR))
-            {
-                return QuinzeOuVinteCincoPorCentoDeDesconto(funcionario);
-            }
-
-            throw new Exception("Funcionário inválido.");
-           
+            if (funcionario.Salario > 3000) return funcionario.Salario * 0.8;
+            return funcionario.Salario * 0.9;
         }
+    }
 
-        private double QuinzeOuVinteCincoPorCentoDeDesconto(Funcionario funcionario)
+    public class QuinzeOuVinteCincoPorCento : IRegraCalculo
+    {
+        public double Calcula(Funcionario funcionario)
         {
             if (funcionario.Salario < 2500)
             {
@@ -27,11 +26,13 @@ namespace DepartamentoPessoal
             }
             return funcionario.Salario * 0.75;
         }
-
-        private double DezOuVintePorCentoDeDesconto(Funcionario funcionario)
+    }
+    public class CalculadoraDeSalario
+    {
+        public double CalculaSalario(Funcionario funcionario)
         {
-            if (funcionario.Salario > 3000) return funcionario.Salario * 0.8;
-            return funcionario.Salario * 0.9;
-        }
+            return funcionario.Cargo.Regra.Calcula(funcionario);
+           
+        }        
     }
 }

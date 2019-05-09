@@ -14,7 +14,7 @@ namespace DepartamentoPessoal
         public void DeveCalcularSalarioParaDesenvolvedoresComSalarioAbaixoDoLimite()
         {
             CalculadoraDeSalario calculadora = new CalculadoraDeSalario();
-            Funcionario desenvolvedor = new Funcionario("Mauricio", 1500.0, Tipos.Cargo.DESENVOLVEDOR);
+            Funcionario desenvolvedor = new Funcionario("Mauricio", 1500.0, new Cargo().DESENVOLVEDOR);
 
             double salario = calculadora.CalculaSalario(desenvolvedor);
 
@@ -26,7 +26,7 @@ namespace DepartamentoPessoal
         public void DeveCalcularSalarioParaDesenvolvedoresComSalarioAcimaDoLimite()
         {
             CalculadoraDeSalario calculadora = new CalculadoraDeSalario();
-            Funcionario desenvolvedor = new Funcionario("Mauricio", 4000.0, Tipos.Cargo.DESENVOLVEDOR);
+            Funcionario desenvolvedor = new Funcionario("Mauricio", 4000.0, new Cargo().DESENVOLVEDOR);
 
             double salario = calculadora.CalculaSalario(desenvolvedor);
 
@@ -37,7 +37,7 @@ namespace DepartamentoPessoal
         public void DeveCalcularSalarioParaDBAsComSalarioAbaixoDoLimite()
         {
             CalculadoraDeSalario calculadora = new CalculadoraDeSalario();
-            Funcionario dba = new Funcionario("Mauricio", 500.0, Tipos.Cargo.DBA);
+            Funcionario dba = new Funcionario("Mauricio", 500.0, new Cargo().DBA);
 
             double salario = calculadora.CalculaSalario(dba);
 
@@ -48,7 +48,7 @@ namespace DepartamentoPessoal
         public void DeveCalcularSalarioParaDBAsComSalarioAcimaDoLimite()
         {
             CalculadoraDeSalario calculadora = new CalculadoraDeSalario();
-            Funcionario dba = new Funcionario("Mauricio", 4500.0, Tipos.Cargo.DBA);
+            Funcionario dba = new Funcionario("Mauricio", 4500.0, new Cargo().DBA);
 
             double salario = calculadora.CalculaSalario(dba);
 
