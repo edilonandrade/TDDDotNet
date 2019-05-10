@@ -10,6 +10,7 @@ namespace ExemploSiteCompra
     {
         private INFDao dao;
         private ISAP sap;
+        //private sealed IList<IAcaoAposGerarNota> acoes;
 
         public GeradorDeNotaFiscal(INFDao dao, ISAP sap)
         {
@@ -26,5 +27,12 @@ namespace ExemploSiteCompra
 
             return nf;
         }
+
+        public interface IAcaoAposGerarNota
+        {
+            void Executa(NotaFiscal nf);
+        }
+
+            
     }
 }

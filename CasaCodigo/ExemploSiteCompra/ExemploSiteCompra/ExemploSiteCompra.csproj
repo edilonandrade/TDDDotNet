@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CarrinhoDeCompras.cs" />
+    <Compile Include="Copiadora.cs" />
     <Compile Include="GeradorDeNotaFiscal.cs" />
     <Compile Include="Item.cs" />
     <Compile Include="MaiorEMenor.cs" />

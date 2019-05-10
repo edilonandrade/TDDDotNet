@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CarrinhoDeComprasBuilder.cs" />
+    <Compile Include="CopiadoraTest.cs" />
     <Compile Include="GeradorDeNotaFiscalTest.cs" />
     <Compile Include="MairoPrecoItemTest.cs" />
     <Compile Include="TestaMaiorEMenor.cs" />
