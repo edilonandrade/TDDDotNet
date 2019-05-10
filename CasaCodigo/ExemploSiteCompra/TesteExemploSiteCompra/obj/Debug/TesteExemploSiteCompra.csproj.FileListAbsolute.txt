@@ -1,2 +1,15 @@
 C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\ExemploSiteCompra\TesteExemploSiteCompra\obj\Debug\TesteExemploSiteCompra.csprojAssemblyReference.cache
 C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\ExemploSiteCompra\TesteExemploSiteCompra\obj\Debug\TesteExemploSiteCompra.csproj.CoreCompileInputs.cache
+C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\ExemploSiteCompra\TesteExemploSiteCompra\bin\Debug\TesteExemploSiteCompra.exe.config
+C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\ExemploSiteCompra\TesteExemploSiteCompra\bin\Debug\TesteExemploSiteCompra.exe
+C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\ExemploSiteCompra\TesteExemploSiteCompra\bin\Debug\TesteExemploSiteCompra.pdb
+C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\ExemploSiteCompra\TesteExemploSiteCompra\bin\Debug\ExemploSiteCompra.dll
+C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\ExemploSiteCompra\TesteExemploSiteCompra\bin\Debug\Moq.dll
+C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\ExemploSiteCompra\TesteExemploSiteCompra\bin\Debug\nunit.framework.dll
+C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\ExemploSiteCompra\TesteExemploSiteCompra\bin\Debug\ExemploSiteCompra.pdb
+C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\ExemploSiteCompra\TesteExemploSiteCompra\bin\Debug\Moq.pdb
+C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\ExemploSiteCompra\TesteExemploSiteCompra\bin\Debug\Moq.xml
+C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\ExemploSiteCompra\TesteExemploSiteCompra\bin\Debug\nunit.framework.xml
+C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\ExemploSiteCompra\TesteExemploSiteCompra\obj\Debug\TesteExemploSiteCompra.csproj.CopyComplete
+C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\ExemploSiteCompra\TesteExemploSiteCompra\obj\Debug\TesteExemploSiteCompra.exe
+C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\ExemploSiteCompra\TesteExemploSiteCompra\obj\Debug\TesteExemploSiteCompra.pdb

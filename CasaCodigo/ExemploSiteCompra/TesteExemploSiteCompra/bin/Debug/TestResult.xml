@@ -1,34 +1,47 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--This file represents the results of running a test suite-->
-<test-results name="C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\ExemploSiteCompra\TesteExemploSiteCompra\bin\Debug\TesteExemploSiteCompra.exe" total="9" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2019-05-10" time="04:55:34">
+<test-results name="C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\ExemploSiteCompra\TesteExemploSiteCompra\bin\Debug\TesteExemploSiteCompra.exe" total="8" errors="2" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2019-05-10" time="10:31:29">
   <environment nunit-version="2.7.0.0" clr-version="2.0.50727.9035" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.7.0\bin" machine-name="LP1659" user="Inmetrics" user-domain="LP1659" />
   <culture-info current-culture="pt-BR" current-uiculture="pt-BR" />
-  <test-suite type="Assembly" name="C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\ExemploSiteCompra\TesteExemploSiteCompra\bin\Debug\TesteExemploSiteCompra.exe" executed="True" result="Success" success="True" time="0.063" asserts="0">
+  <test-suite type="Assembly" name="C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\ExemploSiteCompra\TesteExemploSiteCompra\bin\Debug\TesteExemploSiteCompra.exe" executed="True" result="Failure" success="False" time="0.044" asserts="0">
     <results>
-      <test-suite type="Namespace" name="TesteExemploSiteCompra" executed="True" result="Success" success="True" time="0.063" asserts="0">
+      <test-suite type="Namespace" name="TesteExemploSiteCompra" executed="True" result="Failure" success="False" time="0.044" asserts="0">
         <results>
           <test-suite type="TestFixture" name="CopiadoraTest" executed="True" result="Success" success="True" time="0.002" asserts="0">
             <results>
               <test-case name="TesteExemploSiteCompra.CopiadoraTest.DeveLerEEnviarOConteudoLido" executed="True" result="Success" success="True" time="0.001" asserts="0" />
             </results>
           </test-suite>
-          <test-suite type="TestFixture" name="GeradorDeNotaFiscalTest" executed="True" result="Success" success="True" time="0.034" asserts="0">
+          <test-suite type="TestFixture" name="GeradorDeNotaFiscalTest" executed="True" result="Failure" success="False" time="0.014" asserts="0">
             <results>
-              <test-case name="TesteExemploSiteCompra.GeradorDeNotaFiscalTest.DeveEnviarNFGeradaParaSAP" executed="True" result="Success" success="True" time="0.015" asserts="0" />
-              <test-case name="TesteExemploSiteCompra.GeradorDeNotaFiscalTest.DeveGerarNFComValorDeImpostoDescontado" executed="True" result="Success" success="True" time="0.011" asserts="1" />
-              <test-case name="TesteExemploSiteCompra.GeradorDeNotaFiscalTest.DevePersistirNFGerada" executed="True" result="Success" success="True" time="0.002" asserts="0" />
+              <test-case name="TesteExemploSiteCompra.GeradorDeNotaFiscalTest.DeveConsultarATabelaParaCalcularValor" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotSupportedException : Invalid setup on a non-virtual (overridable in VB) member: t => t.ParaValor(1000)]]></message>
+                  <stack-trace><![CDATA[em Moq.Mock.ThrowIfCantOverride(Expression setup, MethodInfo method)
+em Moq.Mock.<>c__DisplayClass1c`2.<Setup>b__1b()
+em TesteExemploSiteCompra.GeradorDeNotaFiscalTest.DeveConsultarATabelaParaCalcularValor() na C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\ExemploSiteCompra\TesteExemploSiteCompra\GeradorDeNotaFiscalTest.cs:linha 37
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case name="TesteExemploSiteCompra.GeradorDeNotaFiscalTest.DeveInvocarAcoesPosteriores" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : O método ou a operação não está implementada.]]></message>
+                  <stack-trace><![CDATA[em TesteExemploSiteCompra.GeradorDeNotaFiscalTest.DeveInvocarAcoesPosteriores() na C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\ExemploSiteCompra\TesteExemploSiteCompra\GeradorDeNotaFiscalTest.cs:linha 27
+]]></stack-trace>
+                </failure>
+              </test-case>
             </results>
           </test-suite>
-          <test-suite type="TestFixture" name="MairoPrecoItemTest" executed="True" result="Success" success="True" time="0.010" asserts="0">
+          <test-suite type="TestFixture" name="MairoPrecoItemTest" executed="True" result="Success" success="True" time="0.006" asserts="0">
             <results>
-              <test-case name="TesteExemploSiteCompra.MairoPrecoItemTest.DeveRetornarMaiorValorSeCarrinhoContemMuitosElementos" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+              <test-case name="TesteExemploSiteCompra.MairoPrecoItemTest.DeveRetornarMaiorValorSeCarrinhoContemMuitosElementos" executed="True" result="Success" success="True" time="0.000" asserts="1" />
               <test-case name="TesteExemploSiteCompra.MairoPrecoItemTest.DeveRetornarValorDoItemSeCarrinhoCom1Elemento" executed="True" result="Success" success="True" time="0.000" asserts="1" />
               <test-case name="TesteExemploSiteCompra.MairoPrecoItemTest.DeveRetornarZeroSeCarrinhoVazio" executed="True" result="Success" success="True" time="0.000" asserts="1" />
             </results>
           </test-suite>
-          <test-suite type="TestFixture" name="TestaMaiorEMenor" executed="True" result="Success" success="True" time="0.006" asserts="0">
+          <test-suite type="TestFixture" name="TestaMaiorEMenor" executed="True" result="Success" success="True" time="0.004" asserts="0">
             <results>
-              <test-case name="TesteExemploSiteCompra.TestaMaiorEMenor.ApenasUmProduto" executed="True" result="Success" success="True" time="0.002" asserts="2" />
+              <test-case name="TesteExemploSiteCompra.TestaMaiorEMenor.ApenasUmProduto" executed="True" result="Success" success="True" time="0.000" asserts="2" />
               <test-case name="TesteExemploSiteCompra.TestaMaiorEMenor.OrdemDecrescente" executed="True" result="Success" success="True" time="0.000" asserts="2" />
             </results>
           </test-suite>
