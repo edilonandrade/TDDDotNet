@@ -8,31 +8,37 @@ namespace ExemploSiteCompra
 {
     public class GeradorDeNotaFiscal
     {
-        private INFDao dao;
-        private ISAP sap;
-        //private sealed IList<IAcaoAposGerarNota> acoes;
+        private IList<IAcaoAposGerarNota> acoes;
 
-        public GeradorDeNotaFiscal(INFDao dao, ISAP sap)
+        public GeradorDeNotaFiscal(IList<IAcaoAposGerarNota> acoes)
         {
-            this.dao = dao;
-            this.sap = sap;
+            this.acoes = acoes;
         }
 
         public NotaFiscal Gera(Pedido pedido)
         {
             NotaFiscal nf = new NotaFiscal(pedido.Cliente, pedido.ValorTotal * 0.94, DateTime.Now);
 
-            dao.Persiste(nf);
-            sap.Envia(nf);
+            foreach(var acao in acoes)
+            {
+                acao.Executa(nf);
+            }
 
             return nf;
-        }
-
-        public interface IAcaoAposGerarNota
-        {
-            void Executa(NotaFiscal nf);
-        }
-
-            
+        } 
     }
+
+    public interface IAcaoAposGerarNota
+    {
+        void Executa(NotaFiscal nf);
+    }
+
+    public class AcaoAposGerarNota : IAcaoAposGerarNota
+    {
+        public void Executa(NotaFiscal nf)
+        {
+            throw new NotImplementedException();
+        }
+    }
+
 }

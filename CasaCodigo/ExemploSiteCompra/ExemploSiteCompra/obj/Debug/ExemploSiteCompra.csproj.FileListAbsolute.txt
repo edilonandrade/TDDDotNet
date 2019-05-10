@@ -1,5 +1,6 @@
 C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\ExemploSiteCompra\ExemploSiteCompra\bin\Debug\ExemploSiteCompra.dll
 C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\ExemploSiteCompra\ExemploSiteCompra\bin\Debug\ExemploSiteCompra.pdb
+C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\ExemploSiteCompra\ExemploSiteCompra\obj\Debug\ExemploSiteCompra.csprojAssemblyReference.cache
 C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\ExemploSiteCompra\ExemploSiteCompra\obj\Debug\ExemploSiteCompra.csproj.CoreCompileInputs.cache
 C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\ExemploSiteCompra\ExemploSiteCompra\obj\Debug\ExemploSiteCompra.dll
 C:\Users\Inmetrics\Documents\Pessoal\Estudo\Desenvolvimento\TDDDotNet\fontes\CasaCodigo\ExemploSiteCompra\ExemploSiteCompra\obj\Debug\ExemploSiteCompra.pdb

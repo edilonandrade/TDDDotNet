@@ -13,55 +13,18 @@ namespace TesteExemploSiteCompra
     public class GeradorDeNotaFiscalTest
     {
         [Test]
-        public void DeveGerarNFComValorDeImpostoDescontado()
+        public void DeveInvocarAcoesPosteriores()
         {
-            //criando Mock
-            var dao = new Mock<INFDao>();
-            var sap = new Mock<ISAP>();
+            //IAcaoAposGerarNota acao1 = new Mock<IAcaoAposGerarNota>();
+            //IAcaoAposGerarNota acao2 = new Mock<IAcaoAposGerarNota>();
+            //IList<AcaoAposGerarNota> acoes = new List<AcaoAposGerarNota>() { acao1.Object, acao2.Object };
+            //GeradorDeNotaFiscal gerador = new GeradorDeNotaFiscal(acoes);
+            //Pedido pedido = new Pedido("Mauricio", 1000, 1);
+            //NotaFiscal nf = gerador.Gera(pedido);
+            //acao1.Verify(a => a.Executa(nf));
+            //acao2.Verify(a => a.Executa(nf));
 
-            GeradorDeNotaFiscal gerador = new GeradorDeNotaFiscal(dao.Object, sap.Object);
-
-            Pedido pedido = new Pedido("Mauricio", 1000, 1);
-
-            NotaFiscal nf = gerador.Gera(pedido);
-
-            Assert.AreEqual(1000 * 0.94, nf.Valor, 0.0001);
-
-            //verificando que o método foi invocado
-            dao.Verify(t => t.Persiste(nf));
-
-        }
-
-        [Test]
-        public void DevePersistirNFGerada()
-        {
-            //criando Mock
-            var dao = new Mock<INFDao>();
-            var sap = new Mock<ISAP>();
-
-            GeradorDeNotaFiscal gerador = new GeradorDeNotaFiscal(dao.Object, sap.Object);
-
-            Pedido pedido = new Pedido("Mauricio", 1000, 1);
-
-            NotaFiscal nf = gerador.Gera(pedido);
-
-            //verificando que o método foi invocado
-            dao.Verify(t => t.Persiste(nf));
-        }
-
-        [Test]
-        public void DeveEnviarNFGeradaParaSAP()
-        {
-            var dao = new Mock<INFDao>();
-            var sap = new Mock<ISAP>();
-
-            GeradorDeNotaFiscal gerador = new GeradorDeNotaFiscal(dao.Object, sap.Object);
-
-            Pedido pedido = new Pedido("Mauricio", 1000, 1);
-
-            NotaFiscal nf = gerador.Gera(pedido);
-
-            sap.Verify(t => t.Envia(nf));
+            throw new NotImplementedException();
         }
     }
 }
