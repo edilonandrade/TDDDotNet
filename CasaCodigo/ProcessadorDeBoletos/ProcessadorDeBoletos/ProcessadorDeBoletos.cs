@@ -10,10 +10,20 @@ namespace ProcessadorDeBoletos
     {
         public void Processa(IList<Boleto> boletos, Fatura fatura)
         {
-            Boleto boleto = boletos[0];
+            double valorTotal = 0;
 
-            Pagamento pagamento = new Pagamento(boleto.Valor, MeioDePagamento.BOLETO);
-            fatura.Pagamentos.Add(pagamento);
+            foreach(var boleto in boletos)
+            {
+                Pagamento pagamento = new Pagamento(boleto.Valor, MeioDePagamento.BOLETO);
+                fatura.Pagamentos.Add(pagamento);
+
+                valorTotal += boleto.Valor;
+            }
+
+            if (valorTotal >= fatura.Valor)
+            {
+                fatura.Pago = true;
+            }
         }
     }
 }

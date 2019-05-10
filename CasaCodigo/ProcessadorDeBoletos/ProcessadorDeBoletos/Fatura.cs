@@ -24,5 +24,8 @@ namespace ProcessadorDeBoletos
 
             set { objPagamentos = value; }
         }
+
+        public bool Pago { get; set; }
+        public double Valor { get { return valor; } set { valor = value; } }
     }
 }
