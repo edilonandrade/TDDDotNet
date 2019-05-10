@@ -42,11 +42,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CarrinhoDeCompras.cs" />
+    <Compile Include="Copiadora.cs" />
+    <Compile Include="GeradorDeNotaFiscal.cs" />
     <Compile Include="Item.cs" />
     <Compile Include="MaiorEMenor.cs" />
     <Compile Include="MaiorPrecoItem.cs" />
+    <Compile Include="Pedido.cs" />
     <Compile Include="Produto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RelogioDoSistema.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
